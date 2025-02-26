@@ -1,9 +1,12 @@
 <script setup lang="ts">
-import HelloWorld from "./components/HelloWorld.vue";
+  import HelloWorld from "./components/HelloWorld.vue";
+  import { RouterView } from 'vue-router'
+
 </script>
 
 
 <template>
+  <RouterView />
   <div class="bg-white decoration-amber-100">
     <a href="https://vite.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
