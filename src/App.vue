@@ -1,15 +1,15 @@
 <script setup lang="ts">
-  import HelloWorld from "./components/HelloWorld.vue";
-  import { RouterView } from 'vue-router'
-  import Todo from './components/todo/Todo.vue';
+  // import { RouterView } from 'vue-router'
   import Signin from './components/auth/Signin.vue';
-  import Signup from './components/auth/Signup.vue';
-
 </script>
 
 
-<template>
-  <RouterView />
+<template >
+  <div class=" w-full h-auto">
+    <Signin />
+  </div>
+
+<!--  <RouterView />-->
 <!--  <div class="bg-white decoration-amber-100">-->
 <!--    <a href="https://vite.dev" target="_blank">-->
 <!--      <img src="/vite.svg" class="logo" alt="Vite logo" />-->
@@ -21,12 +21,11 @@
 <!--  <HelloWorld msg="Vite + Vue" />-->
 
 <!--  <Todo />-->
-  <Signin />
 <!--  <Signup />-->
 </template>
 
 <style scoped>
-
+/*
   .logo {
     height: 6em;
     padding: 1.5em;
@@ -39,4 +38,6 @@
   .logo.vue:hover {
     filter: drop-shadow(0 0 2em #42b883aa);
   }
+
+ */
 </style>
